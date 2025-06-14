@@ -1,37 +1,10 @@
 📂 What's Inside?
-The file Advanced_Excel_Practice_1.xlsx contains 6 thoughtfully designed sheets, each focused on a specific concept or technique. Here’s a breakdown:
+
+The file Advanced_Excel_Practice_1.xlsx 
 
 🧾 Sheet 1: SalesData
-Purpose: Core data source for all analysis.
-
-Data: 51 sales records from Jan 1 to Feb 19, 2024.
-
-Columns: Date, Product, Amount, Geography, Sales_Person.
-
-Feature Highlight: Structured as a dynamic Excel Table (Table1) for easy reference.
-
 ✅ Sheet 2: Icon Conditional Formatting
-Focus: Visual performance tracking.
-
-How It Works:
-
-Totals sales per salesperson.
-
-Uses a formula: =IF(C3>100000,1,-1) to apply icon sets.
-
-Green check ✅ for high performers, red cross ❌ for under-target.
-
 📈 Sheet 3: Descriptive Statistics
-Focus: Summary statistics of the Amount column.
-
-Functions Used:
-
-AVERAGE, MEDIAN, MIN, MAX, and custom Range.
-
-Advanced: PERCENTILE.EXC for Q1.
-
-Goal: Understand the data distribution at a glance.
-
 🔢 Sheet 4: Count
 Focus: Product-level analysis.
 
@@ -72,24 +45,12 @@ Aggregation	SUMIFS, AVERAGEIFS
 Logic	IF Statements
 Data Structuring	Excel Tables, Structured References
 
-📚 Who It's For
-📊 Business Analysts
+Excel_Practice_Intermediate_Level.xlsx
 
-🧮 Finance Professionals
+Dynamic KPI Dashboard: Create a dynamic dashboard that shows: total sales, average sales, top 3 products by sales, and the salesperson with the highest total sales using PivotTable, Slicers, and conditional formatting.
 
-🎓 Students in Data & Analytics
+Advanced SUMIFS with Multiple Criteria: Calculate total sales for a selected salesperson and geography using named ranges and SUMIFS, controlled by drop-down menus created using data validation.
 
-🧑‍🏫 Instructors teaching Excel
+Custom Conditional Formatting with Icons: Add a column for target sales = 10000. Use an IF condition to return ✓ if Amount ≥ target and ✗ if not. Use Icon Sets with rule editing to display ticks and crosses.
 
-📈 Anyone ready to level up their spreadsheet game
-
-🚀 Get Started
-Download or clone the repo.
-
-Open Advanced_Excel_Practice_1.xlsx in Excel (Office 2016+ recommended).
-
-Explore each sheet. Try modifying formulas, changing data, or applying your own formatting.
-
-📬 Feedback & Contributions
-Suggestions or improvements? Feel free to open an issue or submit a pull request. Let’s make this resource even better!
-
+VLOOKUP AND INDEX MATCH CONCEPT
